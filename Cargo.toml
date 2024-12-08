@@ -1,0 +1,11 @@
+[package]
+name = "cloudwatch-read-logs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-config = "1.5.10"
+aws-sdk-cloudwatchlogs = "1.60.0"
+aws-types = "1.3.3"
+chrono = "0.4.38"
+tokio = { version = "1", features = ["full"] }
